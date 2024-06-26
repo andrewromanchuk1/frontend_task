@@ -6,6 +6,7 @@ import AddModal from '../Modals/AddModal';
 import { Button, MenuItem, Select, SelectChangeEvent } from '@mui/material';
 import { Action, ThunkDispatch } from '@reduxjs/toolkit';
 import DeleteModal from '../Modals/DeleteModal';
+import { Link } from 'react-router-dom';
 
 enum SortOption {
   Alphabetical = 'Alphabetical',
@@ -50,6 +51,7 @@ const ProductList: React.FC = () => {
 
   return (
     <div>
+      <Link to="/view">Product view</Link>
       <Button
         onClick={() => setIsModalOpen(true)}
         style={{ fontSize: '20px', width: '100%', margin: 'auto' }}

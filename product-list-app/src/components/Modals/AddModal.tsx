@@ -26,7 +26,6 @@ const AddModal: React.FC<AddModalProps> = ({ isOpen, setIsModalOpen }) => {
 
   const onSubmit = (e: any) => {
     e.preventDefault();
-    console.log(products);
     dispatch(
       addProduct({
         id: products.length + 1,
