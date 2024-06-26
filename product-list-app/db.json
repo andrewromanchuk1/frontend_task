@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageUrl": "https://www.applesfromny.com/wp-content/uploads/2020/05/20Ounce_NYAS-Apples2.png",
+      "name": "Apple",
+      "count": 4,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "200g",
+      "comments": [
+        "CommentModel",
+        "CommentModel"
+      ]
+    },
+    {
+      "id": 2,
+      "imageUrl": "123",
+      "name": "123",
+      "count": 123,
+      "size": {
+        "width": 123,
+        "height": 123
+      },
+      "weight": "123"
+    },
+    {
+      "id": 3,
+      "imageUrl": "123",
+      "name": "123",
+      "count": 123,
+      "size": {
+        "width": 123,
+        "height": 123
+      },
+      "weight": "123"
+    },
+    {
+      "id": 4,
+      "imageUrl": "123",
+      "name": "123",
+      "count": 123,
+      "size": {
+        "width": 123,
+        "height": 123
+      },
+      "weight": "123"
+    }
+  ],
+  "comments": [
+    {
+      "id": 3,
+      "productId": 1,
+      "description": "some text here",
+      "date": "14:00 22.08.2021"
+    }
+  ]
+}
